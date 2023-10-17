@@ -315,7 +315,7 @@ template {
 }
 
 h1 {
-  color: red;
+  color: rgb(89, 231, 196);
 }
 
 ul {
@@ -323,10 +323,41 @@ ul {
 }
 ul li {
   list-style: none;
+  margin-right: 20px;
+}
+ul li:last-child {
+  margin: 0;
 }
 ul a {
   text-decoration: none;
-  margin-right: 20px;
   font-size: 30px;
-  color: yellow;
+  color: rgb(0, 255, 42);
+}
+
+.box-content {
+  width: 1200px;
+  min-height: 800px;
+  background-color: aquamarine;
+  display: flex;
+  gap: 20px;
+}
+.box-content__box-blue {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+.box-content__box-green {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+.box-content__box-yellow {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+}
+.box-content__box-orange {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
 }/*# sourceMappingURL=style.css.map */

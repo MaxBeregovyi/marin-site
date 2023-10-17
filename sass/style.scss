@@ -1,0 +1,25 @@
+@import 'global';
+@import 'normalizes';
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: red
+}
+ul {
+  display: flex;
+
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 30px;
+    color: yellow ;
+  }
+}

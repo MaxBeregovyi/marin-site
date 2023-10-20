@@ -310,4 +310,10 @@ body {
   margin: 0 0 55px;
 }
 
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */

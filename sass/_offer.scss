@@ -1,5 +1,6 @@
 .offer {
-  padding-top: 110px;
+  height: 768px;
+  padding-top: 241px;
   padding-bottom: 161px;
   background-image: url(../img/tini-img/photo_to_main_offer.jpg);
   background-position: center;
@@ -7,9 +8,12 @@
   background-repeat: no-repeat;
   color: #fff;
   &__title {
-    
+    max-width: 454px;
+    color: #fff;
+    font-family: Oswald;
     font-size: 48px;
-    line-height: 1.5;
+    font-weight: 700;
+    line-height: 150%;
     margin: 0 0 55px;
   }
   &__descr {

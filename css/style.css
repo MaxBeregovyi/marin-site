@@ -233,6 +233,29 @@ body {
   max-width: 1170px;
 }
 
+.btn {
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  background: #2d5e5e;
+  padding: 8px 42px;
+  white-space: nowrap;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.btn:hover, .btn:focus {
+  opacity: 0.7;
+}
+.btn:active {
+  opacity: 0.4;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -258,6 +281,27 @@ body {
 }
 .nav__link:hover, .nav__link:focus {
   color: #18b2b4;
+}
+
+.offer {
+  padding-top: 110px;
+  padding-bottom: 161px;
+  background-image: url(../img/tini-img/photo_to_main_offer.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.offer__title {
+  font-size: 48px;
+  line-height: 1.5;
+  margin: 0 0 55px;
+}
+.offer__descr {
+  font-size: 24px;
+  line-height: 1.5;
+  max-width: 300px;
+  margin: 0 0 55px;
 }
 
 /*# sourceMappingURL=style.css.map */

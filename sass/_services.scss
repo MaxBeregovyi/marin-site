@@ -3,6 +3,7 @@
   justify-content: space-around;
   padding-top: 60px;
   padding-bottom: 37px;
+  gap: 30px;
 
   &__item {
     max-width: 300px;
@@ -12,10 +13,12 @@
     margin-bottom: 30px;
   }
   &__title {
-    font-size: 24px;
-    line-height: 1.33;
-    margin: 0 0 20px;
     color: #2d5e5e;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 133.333%;
+    margin-bottom: 20px;
   }
   &__descr {
     font-weight: 500;

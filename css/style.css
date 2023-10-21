@@ -312,8 +312,26 @@ body {
 
 .services {
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-around;
+  padding-top: 60px;
+  padding-bottom: 37px;
+}
+.services__item {
+  max-width: 300px;
+  text-align: center;
+}
+.services__icon {
+  margin-bottom: 30px;
+}
+.services__title {
+  font-size: 24px;
+  line-height: 1.33;
+  margin: 0 0 20px;
+  color: #2d5e5e;
+}
+.services__descr {
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 /*# sourceMappingURL=style.css.map */

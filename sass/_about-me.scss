@@ -1,0 +1,10 @@
+.about {
+  background-image: url(../img/tini-img/Rectangle.jpg);
+
+  &__container {
+    display: flex;
+    min-height: 330px;
+    padding: 60px 0;
+  }
+ 
+}

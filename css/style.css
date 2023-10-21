@@ -347,4 +347,13 @@ h6 {
   line-height: 1.5;
 }
 
+.about {
+  background-image: url(../img/tini-img/Rectangle.jpg);
+}
+.about__container {
+  display: flex;
+  min-height: 330px;
+  padding: 60px 0;
+}
+
 /*# sourceMappingURL=style.css.map */

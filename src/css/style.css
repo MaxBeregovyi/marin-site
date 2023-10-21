@@ -230,6 +230,16 @@ body {
   color: black;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Oswald, sans-serif;
+  color: black;
+}
+
 .center {
   padding-left: calc(50vw - 555px);
   padding-right: calc(50vw - 555px);
@@ -315,7 +325,9 @@ body {
 .services {
   display: flex;
   justify-content: space-around;
-  padding: 60px 0 37px 0;
+  padding-top: 60px;
+  padding-bottom: 37px;
+  gap: 30px;
 }
 .services__item {
   max-width: 300px;
@@ -325,10 +337,12 @@ body {
   margin-bottom: 30px;
 }
 .services__title {
-  font-size: 24px;
-  line-height: 1.33;
-  margin: 0 0 20px;
   color: #2d5e5e;
+  font-family: Oswald;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 133.333%;
+  margin-bottom: 20px;
 }
 .services__descr {
   font-weight: 500;

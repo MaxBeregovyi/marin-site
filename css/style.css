@@ -455,12 +455,13 @@ h6 {
   gap: 20px;
 }
 .countrs__item {
+  max-width: 300px;
   padding-top: 60px;
   text-align: center;
   margin-bottom: 60px;
 }
 .countrs__title {
-  color: #fff;
+  color: white;
   font-family: Montserrat;
   font-size: 48px;
   font-weight: 900;
@@ -468,14 +469,14 @@ h6 {
   margin-bottom: 14px;
 }
 .countrs__subtext {
-  color: #fff;
+  color: white;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.3; /* 133.333% */
   margin-bottom: 20px;
 }
 .countrs__descr {
-  color: #fff;
+  color: white;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */

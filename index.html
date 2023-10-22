@@ -100,31 +100,51 @@
       <section class="sign-up center">
         <h2 class="sign-up__title">Записаться на прием</h2>
         <form class="sign-up__form" action="#">
-          <div class="sign-up__input-list">
-            <input
-              class="input"
-              type="text"
-              name="username"
-              placeholder="Ваше имя *"
-              required
-              id=""
-            />
-            <input
-              class="input"
-              type="tel"
-              required
-              placeholder="Ваш телефон *"
-            />
-            <select class="input" name="meeting" id="">
-              <option selected value="1">Тема встречи *</option>
-              <option value="2">Семейная терапия</option>
-              <option value="3">Научится летать</option>
-              <option value="3">Просто поговорить</option>
-            </select>
+          <div class="sign-up__form-box">
+            <div class="sign-up__input-list">
+              <input
+                class="input"
+                type="text"
+                name="username"
+                placeholder="Ваше имя *"
+                required
+                id=""
+              />
+              <input
+                class="input"
+                type="tel"
+                required
+                placeholder="Ваш телефон *"
+              />
+              <select class="input" name="meeting" id="">
+                <option selected value="1">Тема встречи *</option>
+                <option value="2">Семейная терапия</option>
+                <option value="3">Научится летать</option>
+                <option value="3">Просто поговорить</option>
+              </select>
+            </div>
+            <div class="sign-up__texarea">
+              <textarea
+                class="sign-up__texarea-style"
+                name="text"
+                placeholder="Пожелания"
+                id=""
+              ></textarea>
+            </div>
           </div>
-          <div class="sign-up__texarea">
-            <textarea class="sign-up__texarea-style" name="text" placeholder="Пожелания" id=""></textarea>
+
+          <div class="sign-up__checkbox">
+            <input
+              class="sign-up__checkbox-input"
+              type="checkbox"
+              id="checkbox_1"
+            />
+            <label class="sign-up__checkbox-label" for="checkbox_1"
+              >Я согласен с политикой конфиденциальности</label
+            >
           </div>
+
+          <button class="btn" type="submit">Отправить</button>
         </form>
       </section>
     </main>

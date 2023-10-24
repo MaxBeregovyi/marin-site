@@ -265,6 +265,7 @@ a {
   text-decoration: none;
   font-size: 18px;
   line-height: 1.33;
+  cursor: pointer;
   border: 3px solid transparent;
 }
 .btn:hover, .btn:focus {
@@ -473,6 +474,7 @@ a {
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 .sign-up__checkbox:checked + .sign-up__fake-chek::before {

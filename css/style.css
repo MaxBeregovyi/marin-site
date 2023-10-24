@@ -266,6 +266,7 @@ a {
   font-size: 18px;
   line-height: 1.33;
   border: 3px solid transparent;
+  cursor: pointer;
 }
 .btn:hover, .btn:focus {
   opacity: 0.7;
@@ -454,14 +455,15 @@ a {
 .sign-up__checkbox {
   display: none;
 }
-.sign-up__fake-chek {
+.sign-up__chek {
   display: inline-block;
   width: 16px;
   height: 16px;
   border: 1px solid #2d5e5e;
   position: relative;
+  cursor: pointer;
 }
-.sign-up__fake-chek::before {
+.sign-up__chek::before {
   content: "";
   position: absolute;
   display: block;
@@ -475,11 +477,11 @@ a {
   transition: 0.2s;
 }
 
-.sign-up__checkbox:checked + .sign-up__fake-chek::before {
+.sign-up__checkbox:checked + .sign-up__chek::before {
   opacity: 1;
 }
 
-.countrs {
+.counters {
   background-image: url(../img/tini-img/counter_bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -492,11 +494,11 @@ a {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.countrs__item {
+.counters__item {
   max-width: 300px;
   text-align: center;
 }
-.countrs__title {
+.counters__title {
   color: white;
   font-family: Montserrat;
   font-size: 48px;
@@ -504,14 +506,14 @@ a {
   line-height: 1.5; /* 150% */
   margin-bottom: 14px;
 }
-.countrs__subtext {
+.counters__subtext {
   color: white;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.3; /* 133.333% */
   margin-bottom: 20px;
 }
-.countrs__descr {
+.counters__descr {
   color: white;
   font-size: 16px;
   font-weight: 500;

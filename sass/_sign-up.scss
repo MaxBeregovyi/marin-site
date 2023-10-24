@@ -43,12 +43,13 @@
     display: none;
   }
 
-  &__fake-chek {
+  &__chek {
     display: inline-block;
     width: 16px;
     height: 16px;
     border: 1px solid #2d5e5e;
     position: relative;
+    cursor: pointer;
     &::before {
       content: "";
       position: absolute;
@@ -64,6 +65,6 @@
     }
   }
 }
-.sign-up__checkbox:checked + .sign-up__fake-chek::before {
+.sign-up__checkbox:checked + .sign-up__chek::before {
   opacity: 1;
 }

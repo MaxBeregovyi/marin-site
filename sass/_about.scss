@@ -1,0 +1,37 @@
+.about {
+  background-image: url(../img/tini-img/Rectangle.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr 494px;
+
+  gap: 35px 50px;
+
+  &__title {
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.5;
+  }
+  &__desc {
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  &__img {
+    grid-row: 1/4;
+    grid-column: 2/3;
+  }
+  &__btns {
+    grid-column: 1/2;
+    display: flex;
+    gap: 30px;
+  }
+}

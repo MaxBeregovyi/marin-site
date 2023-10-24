@@ -10,8 +10,7 @@
   padding-bottom: 60px;
   display: grid;
   grid-template-columns: 1fr 494px;
-
-  gap: 35px 50px;
+  grid-gap: 35px 50px;
 
   &__title {
     margin: 0 0 15px 0;

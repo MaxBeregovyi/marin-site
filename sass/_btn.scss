@@ -21,9 +21,9 @@
   &:active {
     opacity: 0.4;
   }
-}
-
-.btn_background_none {
+  &_background_none {
   background: none;
   border: 3px solid #2d5e5e;
 }
+}
+

@@ -93,7 +93,6 @@
           class="about__img"
           src="./img/tini-img/about_photo.jpg"
           alt="photo-about"
-          srcset=""
         />
       </section>
       <section class="sign-up center">
@@ -105,7 +104,6 @@
             name="username"
             placeholder="Ваше имя *"
             required
-            id=""
           />
           <input
             class="input"
@@ -124,12 +122,14 @@
             class="input input_texarea_size"
             name="text"
             placeholder="Пожелания"
-            id=""
           ></textarea>
 
-          <label class="sign-up__checkbox-label" for="">
-            <input type="checkbox" name="confidentiality" id="" />
-            Я согласен с политикой конфиденциальности
+          <label class="sign-up__label">
+            <input type="checkbox" class="sign-up__checkbox" />
+            <span class="sign-up__fake-chek"></span>
+            <span class="sign-up__text-conf"
+              >Я согласен с политикой конфиденциальности</span
+            >
           </label>
           <div class="sign-up__btn-sumbit">
             <button class="btn" type="submit">Отправить</button>

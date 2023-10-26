@@ -299,6 +299,13 @@ a {
   padding-top: 8px;
 }
 
+select {
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -481,6 +488,27 @@ a {
 
 .sign-up__checkbox:checked + .sign-up__chek::before {
   opacity: 1;
+}
+
+.select-wrapper {
+  position: relative;
+}
+.select-wrapper:before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 15px;
+  transform: translate(-50%);
+  display: block;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12px 9px 0 9px;
+  border-color: #000000 transparent transparent transparent;
 }
 
 .counters {

@@ -316,25 +316,6 @@ select {
   width: 100%;
 }
 
-.nav__list {
-  display: flex;
-  gap: 15px;
-  list-style: none;
-}
-.nav__link {
-  text-decoration: none;
-  color: #85aaab;
-  font-size: 18px;
-  font-weight: 700;
-}
-.nav__link_active {
-  color: #6de1e3;
-  border-bottom: 2px solid currentColor;
-}
-.nav__link:hover, .nav__link:focus {
-  color: #18b2b4;
-}
-
 .offer {
   padding-top: 241px;
   padding-bottom: 161px;
@@ -358,6 +339,25 @@ select {
   line-height: 1.5;
   max-width: 300px;
   margin: 0 0 55px;
+}
+
+.nav__list {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+.nav__link {
+  text-decoration: none;
+  color: #85aaab;
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav__link_active {
+  color: #6de1e3;
+  border-bottom: 2px solid currentColor;
+}
+.nav__link:hover, .nav__link:focus {
+  color: #18b2b4;
 }
 
 .services {
@@ -490,27 +490,6 @@ select {
   opacity: 1;
 }
 
-.select-wrapper {
-  position: relative;
-}
-.select-wrapper:before {
-  content: "";
-  position: absolute;
-  top: 40%;
-  right: 15px;
-  transform: translate(-50%);
-  display: block;
-  width: 10px;
-  height: 10px;
-  text-align: center;
-  pointer-events: none;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 12px 9px 0 9px;
-  border-color: #000000 transparent transparent transparent;
-}
-
 .counters {
   background-image: url(../img/tini-img/counter_bg.jpg);
   background-position: center;
@@ -548,6 +527,27 @@ select {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
+}
+
+.select-wrapper {
+  position: relative;
+}
+.select-wrapper:before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 15px;
+  transform: translate(-50%);
+  display: block;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12px 9px 0 9px;
+  border-color: #000000 transparent transparent transparent;
 }
 
 /*# sourceMappingURL=style.css.map */

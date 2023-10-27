@@ -7,25 +7,3 @@
   position: absolute;
   width: 100%;
 }
-.nav {
-  &__list {
-    display: flex;
-    gap: 15px;
-    list-style: none;
-  }
-
-  &__link {
-    text-decoration: none;
-    color: #85aaab;
-    font-size: 18px;
-    font-weight: 700;
-    &_active {
-      color: #6de1e3;
-      border-bottom: 2px solid currentColor;
-    }
-    &:hover,
-    &:focus {
-      color: #18b2b4;
-    }
-  }
-}

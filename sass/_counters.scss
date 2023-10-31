@@ -12,6 +12,11 @@ $color-white: white;
   gap: 20px;
   padding-top: 60px;
   padding-bottom: 60px;
+  @media screen and (max-width: 740px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   &__item {
     max-width: 300px;

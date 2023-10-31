@@ -27,6 +27,10 @@
     background: none;
     border: 3px solid #2d5e5e;
   }
+  &_size {
+    max-width: 300px;
+    width: 100%;
+  }
   @media screen and (max-width: 500px) {
     max-width: 100px;
     width: 100%;

@@ -1,4 +1,4 @@
-.label {
+.checkbox {
   color: #2d5e5e;
   font-size: 12px;
   font-weight: 500;
@@ -6,7 +6,7 @@
   display: flex;
   gap: 15px;
   align-items: center;
-  &__checkbox {
+  &__elem {
     display: none;
   }
   &__chek {
@@ -32,6 +32,6 @@
     }
   }
 }
-.label__checkbox:checked + .label__chek::before {
+.checkbox__elem:checked + .checkbox__chek::before {
   opacity: 1;
 }

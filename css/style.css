@@ -279,6 +279,10 @@ a {
   background: none;
   border: 3px solid #2d5e5e;
 }
+.btn_size {
+  max-width: 300px;
+  width: 100%;
+}
 @media screen and (max-width: 500px) {
   .btn {
     max-width: 100px;
@@ -287,7 +291,7 @@ a {
   }
 }
 
-.label {
+.checkbox {
   color: #2d5e5e;
   font-size: 12px;
   font-weight: 500;
@@ -296,10 +300,10 @@ a {
   gap: 15px;
   align-items: center;
 }
-.label__checkbox {
+.checkbox__elem {
   display: none;
 }
-.label__chek {
+.checkbox__chek {
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -307,7 +311,7 @@ a {
   position: relative;
   cursor: pointer;
 }
-.label__chek::before {
+.checkbox__chek::before {
   content: "";
   position: absolute;
   display: block;
@@ -322,7 +326,7 @@ a {
   cursor: pointer;
 }
 
-.label__checkbox:checked + .label__chek::before {
+.checkbox__elem:checked + .checkbox__chek::before {
   opacity: 1;
 }
 
@@ -528,6 +532,12 @@ a {
   grid-template-columns: 1fr 494px;
   grid-gap: 35px 50px;
 }
+@media screen and (max-width: 1200px) {
+  .about {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
 @media screen and (max-width: 960px) {
   .about {
     display: flex;
@@ -538,6 +548,7 @@ a {
   .about {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
 }
 .about__title {
@@ -591,17 +602,6 @@ a {
     justify-content: center;
   }
 }
-@media screen and (max-width: 1200px) {
-  .about {
-    padding-right: 60px;
-    padding-left: 60px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .about {
-    text-align: center;
-  }
-}
 
 .sign-up {
   padding: 60px 0;
@@ -639,7 +639,7 @@ a {
   grid-row: 6;
   text-align: center;
 }
-.sign-up__label {
+.sign-up__checkbox {
   margin-top: 10px;
   grid-row: 5;
   grid-column: 1/3;

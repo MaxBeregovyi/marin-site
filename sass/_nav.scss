@@ -8,6 +8,7 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
     }
+
     @media screen and (max-width: 500px) {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
@@ -20,14 +21,17 @@
     color: #85aaab;
     font-size: 18px;
     font-weight: 700;
+
     @media screen and (max-width: 500px) {
       font-size: 12px;
       padding-right: 30px;
     }
+
     &_active {
       color: #6de1e3;
       border-bottom: 2px solid currentColor;
     }
+
     &:hover,
     &:focus {
       color: #18b2b4;

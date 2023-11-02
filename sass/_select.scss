@@ -4,8 +4,10 @@ select {
   cursor: pointer;
   width: 100%;
 }
+
 .select-wrapper {
   position: relative;
+
   &:before {
     content: "";
     position: absolute;
@@ -15,7 +17,6 @@ select {
     display: block;
     width: 10px;
     height: 10px;
-
     text-align: center;
     pointer-events: none;
     width: 0;

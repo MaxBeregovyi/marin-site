@@ -4,8 +4,6 @@
     display: flex;
     justify-content: center;
 
-
-
     &__container {
         max-width: 720px;
         width: 100%;
@@ -61,13 +59,11 @@
         position: absolute;
         top: 230px;
         right: 0;
-
     }
 
     &__arrow-left {
         position: absolute;
         top: 230px;
         left: 0;
-
     }
 }

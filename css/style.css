@@ -716,12 +716,17 @@ select {
 
 .reviews {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
   display: flex;
   justify-content: center;
 }
 .reviews__container {
   max-width: 720px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 .reviews__title {
   margin-bottom: 50px;
@@ -757,7 +762,17 @@ select {
   font-size: 16px;
   font-weight: 300;
   line-height: 150%;
-  /* 150% */
+  padding-bottom: 20px;
+}
+.reviews__arrow-right {
+  position: absolute;
+  top: 230px;
+  right: 0;
+}
+.reviews__arrow-left {
+  position: absolute;
+  top: 230px;
+  left: 0;
 }
 
 .art {

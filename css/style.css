@@ -714,4 +714,86 @@ select {
   border-color: #000000 transparent transparent transparent;
 }
 
+.reviews {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+.reviews__container {
+  max-width: 720px;
+}
+.reviews__title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.reviews__box {
+  background: #ADDDDE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: 260px;
+}
+.reviews__client-box {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 30px;
+}
+.reviews__photo-descr {
+  color: #2D5E5E;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 133.333%;
+}
+.reviews__text {
+  text-align: center;
+  max-width: 550px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+  /* 150% */
+}
+
+.art {
+  padding-top: 60px;
+  padding-bottom: 28px;
+  background-image: url(../img/tini-img/article.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+}
+.art__container {
+  display: flex;
+  justify-content: space-between;
+}
+.art__title {
+  color: #FFF;
+  margin-bottom: 54px;
+}
+.art__item {
+  max-width: 334px;
+}
+.art__link {
+  text-decoration: none;
+}
+.art__img {
+  margin-bottom: 24px;
+}
+.art__text {
+  color: #FFF;
+  font-family: Oswald;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 133.333%;
+  /* 133.333% */
+}
+
 /*# sourceMappingURL=style.css.map */

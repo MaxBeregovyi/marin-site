@@ -1,0 +1,42 @@
+.art {
+    padding-top: 60px;
+    padding-bottom: 28px;
+    background-image: url(../img/tini-img/article.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        color: #FFF;
+        margin-bottom: 54px;
+}
+
+    &__item {
+        max-width: 334px;
+
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__img {
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        color: #FFF;
+        font-family: Oswald;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 133.333%;
+        /* 133.333% */
+    }
+}

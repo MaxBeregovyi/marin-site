@@ -11,11 +11,23 @@
     &__container {
         display: flex;
         justify-content: space-between;
+
+        @media screen and (max-width: 1000px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 30px;
+        }
     }
 
     &__title {
         color: #FFF;
         margin-bottom: 54px;
+
+        @media screen and (max-width: 1000px) {
+            text-align: center;
+        }
     }
 
     &__item {

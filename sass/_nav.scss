@@ -11,8 +11,9 @@
 
     @media screen and (max-width: 500px) {
       display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(4, 1fr);
+      gap: 10px;
+      padding-right: 68px;
+
     }
   }
 

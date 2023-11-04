@@ -945,14 +945,39 @@ select {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media screen and (max-width: 640px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .footer__logo {
   margin-right: 50px;
+}
+@media screen and (max-width: 640px) {
+  .footer__logo {
+    margin: 0 0 20px 0;
+  }
 }
 
 .contact-footer__list {
   display: flex;
   list-style: none;
   gap: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .contact-footer__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 380px) {
+  .contact-footer__list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
 }
 .contact-footer__link {
   text-decoration: none;

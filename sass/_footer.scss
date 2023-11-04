@@ -1,0 +1,31 @@
+.footer {
+    background: #2D5E5E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &__logo {
+        margin-right: 50px;
+    }
+}
+
+.contact-footer {
+    &__list {
+        display: flex;
+        list-style: none;
+        gap: 30px;
+    }
+
+    &__link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 171%;
+    }
+}

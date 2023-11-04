@@ -930,10 +930,39 @@ select {
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  gap: 10px;
 }
 .sale__checkbox {
   display: flex;
   justify-content: center;
+}
+
+.footer {
+  background: #2D5E5E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer__logo {
+  margin-right: 50px;
+}
+
+.contact-footer__list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.contact-footer__link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 171%;
 }
 
 /*# sourceMappingURL=style.css.map */

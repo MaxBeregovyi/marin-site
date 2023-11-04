@@ -285,7 +285,7 @@ a {
   border: 3px solid #2d5e5e;
 }
 .btn_size {
-  max-width: 300px;
+  max-width: 370px;
   width: 100%;
 }
 @media screen and (max-width: 500px) {
@@ -336,6 +336,8 @@ a {
 }
 
 .input {
+  max-width: 369px;
+  width: 100%;
   min-height: 40px;
   border-radius: 10px;
   border: 1px solid #000;
@@ -911,10 +913,27 @@ select {
 .contact-box__link {
   text-decoration: none;
   color: #000;
-  font-family: Montserrat;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
+}
+
+.sale {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.sale__title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.sale__inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.sale__checkbox {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

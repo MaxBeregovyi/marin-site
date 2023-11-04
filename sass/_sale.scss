@@ -1,0 +1,20 @@
+.sale {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &__title {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    &__inputs {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    &__checkbox {
+        display: flex;
+        justify-content: center;
+    }
+}

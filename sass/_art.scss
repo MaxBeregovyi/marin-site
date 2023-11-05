@@ -28,6 +28,10 @@
         @media screen and (max-width: 1000px) {
             text-align: center;
         }
+        @media screen and (max-width: 500px) {
+            font-size: 34px;
+      
+          }
     }
 
     &__item {

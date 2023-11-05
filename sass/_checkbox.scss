@@ -6,6 +6,9 @@
   display: flex;
   gap: 15px;
   align-items: center;
+  @media screen and (max-width: 500px) {
+ font-size: 10px;
+}
   &__elem {
     display: none;
   }

@@ -3,15 +3,21 @@ select {
   border: none;
   cursor: pointer;
   width: 100%;
+  @media screen and (max-width: 500px) {
+    
+}
 }
 
 .select-wrapper {
   position: relative;
+  max-width: 369px;
+  width: 100%;
 
   &:before {
     content: "";
     position: absolute;
     top: 40%;
+
     right: 15px;
     transform: translate(-50%);
     display: block;

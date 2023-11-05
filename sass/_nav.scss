@@ -1,19 +1,17 @@
+.open {
+  display: flex !important;
+}
+
 .nav {
   &__list {
     display: flex;
     gap: 15px;
     list-style: none;
 
-    @media screen and (max-width: 968px) {
+    @media screen and (max-width: 820px) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-    }
-
-    @media screen and (max-width: 500px) {
-      display: grid;
       gap: 10px;
-      padding-right: 68px;
-
     }
   }
 
@@ -37,5 +35,109 @@
     &:focus {
       color: #18b2b4;
     }
+  }
+}
+
+.burger {
+  display: none;
+  position: relative;
+  z-index: 50;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30px;
+  height: 21px;
+
+  &::before,
+  &::after {
+    transition: 0.3s;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    top: 0
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    bottom: 0;
+  }
+
+  &__span {
+    height: 2px;
+    width: 80%;
+    transform: scale(1);
+    background-color: #6de1e3;
+
+  }
+}
+
+.burger.active .burger__span {
+  transform: scale(0);
+}
+
+
+
+.burger.active::before {
+  top: 50%;
+  transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger.active::after {
+  bottom: 50%;
+  transform: rotate(45deg) translate(0, 50%);
+}
+
+@media screen and (max-width:600px) {
+  .burger {
+    display: flex;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    overflow-y: auto;
+    background-color: black;
+    animation: burgerAnimation 0.4s;
+    padding: 30px 40px 0 40px;
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+      text-align: center;
+
+    }
+
+    &__link {
+      font-size: 30px;
+
+    }
+
+  }
+}
+
+@keyframes burgerAnimation {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
   }
 }

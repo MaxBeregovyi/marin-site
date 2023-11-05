@@ -18,10 +18,9 @@
     color: #fff;
     font-size: 36px;
     line-height: 1.5;
-
     @media screen and (max-width: 500px) {
-      font-size: 24px;
-      text-wrap: balance;
+      font-size: 34px;
+
     }
   }
 
@@ -60,8 +59,10 @@
   }
 
   @media screen and (max-width: 1200px) {
-    padding-right: 20px;
-    padding-left: 20px;
+   @media screen and (max-width: 1200px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   }
 
   @media screen and (max-width: 960px) {

@@ -96,7 +96,7 @@
   transform: rotate(45deg) translate(0, 50%);
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
   .burger {
     display: flex;
   }
@@ -117,7 +117,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
- 
     animation: burgerAnimation 0.4s;
     padding: 30px 40px 0 40px;
 

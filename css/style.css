@@ -480,7 +480,7 @@ a {
   transform: rotate(45deg) translate(0, 50%);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .burger {
     display: flex;
   }
@@ -1114,7 +1114,7 @@ select {
 @media screen and (max-width: 500px) {
   .questions__container {
     padding: 0;
-    text-align: center;
+    text-align: left;
   }
 }
 .questions__item {
@@ -1122,6 +1122,8 @@ select {
 }
 .questions__item[open] .questions__img {
   transform: rotate(-45deg);
+}
+.questions__item[open] path {
   fill: #2D5E5E;
 }
 .questions__item[open] .questions__title-quest {
@@ -1130,19 +1132,17 @@ select {
 .questions__switch {
   list-style: none;
 }
-.questions__marker {
-  margin-right: 16px;
-}
 .questions__title-quest {
   color: #000;
   font-family: Oswald;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.3;
+  margin-left: 20px;
 }
 @media screen and (max-width: 500px) {
   .questions__title-quest {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 40px;
   }
 }
@@ -1161,8 +1161,7 @@ select {
 }
 @media screen and (max-width: 500px) {
   .questions {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 30px 20px;
   }
 }
 
@@ -1291,8 +1290,7 @@ select {
 }
 @media screen and (max-width: 500px) {
   .sale {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 30px 20px;
   }
 }
 
@@ -1314,6 +1312,11 @@ select {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer {
+    padding: 40px 20px;
   }
 }
 .footer__logo {

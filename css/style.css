@@ -413,7 +413,7 @@ a {
 }
 .nav__link {
   text-decoration: none;
-  color: #44c6ca;
+  color: #85AAAB;
   font-size: 18px;
   font-weight: 700;
 }
@@ -424,11 +424,11 @@ a {
   }
 }
 .nav__link_active {
-  color: #75e0e2;
+  color: #6DE1E3;
   border-bottom: 2px solid currentColor;
 }
 .nav__link:hover, .nav__link:focus {
-  color: #29d8db;
+  color: #6DE1E3;
 }
 
 .burger {
@@ -496,7 +496,10 @@ a {
     right: 0;
     z-index: 50;
     overflow-y: auto;
-    background-image: url(../img/tini-img/offerfon2.jpeg);
+    background-image: url(../img/tini-img/fon2-nav-burger.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     animation: burgerAnimation 0.4s;
     padding: 30px 40px 0 40px;
   }

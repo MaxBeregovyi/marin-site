@@ -8,21 +8,21 @@
     @media screen and (max-width:1200px) {
         display: flex;
         justify-content: center;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
-    @media screen and (max-width:640px) {
+    @media screen and (max-width:678px) {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    @media screen and (max-width: 500px) {
-        padding: 40px 20px;
-    }
+
 
     &__logo {
         margin-right: 50px;
 
-        @media screen and (max-width:640px) {
+        @media screen and (max-width:678px) {
             margin: 0 0 20px 0;
         }
     }
@@ -39,7 +39,7 @@
             grid-template-columns: repeat(2, 1fr);
         }
 
-        @media screen and (max-width:380px) {
+        @media screen and (max-width:420px) {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             gap: 10px;
@@ -55,15 +55,5 @@
         font-size: 14px;
         font-weight: 500;
         line-height: 171%;
-    }
-    
-    @media screen and (max-width: 1200px) {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-
-    @media screen and (max-width: 500px) {
-        padding-left: 20px;
-        padding-right: 20px;
     }
 }

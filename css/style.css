@@ -1305,24 +1305,21 @@ select {
   .footer {
     display: flex;
     justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 678px) {
   .footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 }
-@media screen and (max-width: 500px) {
-  .footer {
-    padding: 40px 20px;
-  }
-}
 .footer__logo {
   margin-right: 50px;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 678px) {
   .footer__logo {
     margin: 0 0 20px 0;
   }
@@ -1339,7 +1336,7 @@ select {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 420px) {
   .contact-footer__list {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1355,18 +1352,6 @@ select {
   font-size: 14px;
   font-weight: 500;
   line-height: 171%;
-}
-@media screen and (max-width: 1200px) {
-  .contact-footer {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .contact-footer {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

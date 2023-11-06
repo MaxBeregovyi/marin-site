@@ -30,9 +30,31 @@ a {
   padding-left: calc(50vw - 600px);
   padding-right: calc(50vw - 600px);
 
-  @media screen and (max-width:1200px) {
-    padding-left: calc(50vw - 540px);
-    padding-right: calc(50vw - 540px);
+  @media screen and (max-width:1280px) {
+    padding-left: calc(50vw - 570px);
+    padding-right: calc(50vw - 570px);
+
+
+  }
+
+  @media screen and (max-width:1024px) {
+    padding-left: calc(50vw - 480px);
+    padding-right: calc(50vw - 480px);
+
+
+  }
+
+  @media screen and (max-width:768px) {
+    padding-left: calc(50vw - 360px);
+    padding-right: calc(50vw - 360px);
+
+
+
+  }
+
+  @media screen and (max-width:320px) {
+    padding-left: calc(50vw - 140px);
+    padding-right: calc(50vw - 140px);
 
 
   }

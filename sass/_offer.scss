@@ -7,13 +7,11 @@
   background-repeat: no-repeat;
   color: #fff;
 
+
+
   &__title {
     max-width: 454px;
     color: #fff;
-    font-family: Oswald;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 150%;
     margin: 0 0 55px;
 
     @media screen and (max-width: 1200px) {
@@ -24,8 +22,10 @@
 
     @media screen and (max-width: 500px) {
       font-size: 30px;
-      display: flex;
-      width: 240px;
+    }
+
+    @media screen and (max-width: 360px) {
+      font-size: 24px;
     }
   }
 
@@ -47,9 +47,23 @@
     padding-right: 40px;
   }
 
-  @media screen and (max-width: 500px) {
-    padding-top: 150px;
-    padding-left: 20px;
-
+  @media screen and (max-width: 700px) {
+    padding-top: 241px;
+    padding-bottom: 161px;
+    background-image: url(../img/tini-img/offerfon2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
   }
+
+  @media screen and (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+
+
 }

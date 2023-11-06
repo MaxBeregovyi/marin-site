@@ -27,6 +27,10 @@ $color-white: white;
     line-height: 1.5;
     /* 150% */
     margin-bottom: 14px;
+
+    @media screen and (max-width: 500px) {
+      font-size: 40px;
+    }
   }
 
   &__subtext {
@@ -36,6 +40,10 @@ $color-white: white;
     line-height: 1.3;
     /* 133.333% */
     margin-bottom: 20px;
+
+    @media screen and (max-width: 500px) {
+      font-size: 18px;
+    }
   }
 
   &__descr {
@@ -46,9 +54,22 @@ $color-white: white;
     /* 150% */
   }
 
+  @media screen and (max-width: 1200px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
   @media screen and (max-width: 740px) {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
+  @media screen and (max-width: 500px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+
 }

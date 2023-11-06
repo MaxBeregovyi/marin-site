@@ -17,7 +17,7 @@
 
   &__link {
     text-decoration: none;
-    color: #85aaab;
+    color: #44c6ca;
     font-size: 18px;
     font-weight: 700;
 
@@ -27,16 +27,20 @@
     }
 
     &_active {
-      color: #6de1e3;
+      color: #75e0e2;
       border-bottom: 2px solid currentColor;
     }
 
     &:hover,
     &:focus {
-      color: #18b2b4;
+      color: #29d8db;
     }
   }
 }
+
+
+// BURGER MENU-----------------------------------------------
+
 
 .burger {
   display: none;
@@ -75,15 +79,12 @@
     width: 80%;
     transform: scale(1);
     background-color: #6de1e3;
-
   }
 }
 
 .burger.active .burger__span {
   transform: scale(0);
 }
-
-
 
 .burger.active::before {
   top: 50%;
@@ -112,7 +113,7 @@
     right: 0;
     z-index: 50;
     overflow-y: auto;
-    background-color: black;
+    background-image: url(../img/tini-img/offerfon2.jpeg);
     animation: burgerAnimation 0.4s;
     padding: 30px 40px 0 40px;
 
@@ -121,12 +122,10 @@
       flex-direction: column;
       row-gap: 30px;
       text-align: center;
-
     }
 
     &__link {
       font-size: 30px;
-
     }
 
   }

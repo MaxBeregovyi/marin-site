@@ -13,5 +13,18 @@
     padding-right: 40px;
   }
 
+  @media screen and (max-width: 500px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 
+
+.logo {
+  &__img {
+    @media screen and (max-width: 600px) {
+      height: 60px;
+
+    }
+  }
 }

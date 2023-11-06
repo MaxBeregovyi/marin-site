@@ -573,6 +573,7 @@ a {
 }
 @media screen and (max-width: 500px) {
   .offer__title {
+    text-wrap: balance;
     font-size: 30px;
   }
 }

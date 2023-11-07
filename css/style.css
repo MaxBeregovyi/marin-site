@@ -971,14 +971,14 @@ select {
   .reviews__arrow-right {
     position: absolute;
     top: 80px;
-    right: 160px;
+    right: 120px;
   }
 }
 @media screen and (max-width: 500px) {
   .reviews__arrow-right {
     position: absolute;
     top: 80px;
-    right: 100px;
+    right: 80px;
   }
 }
 .reviews__arrow-left {
@@ -990,14 +990,14 @@ select {
   .reviews__arrow-left {
     position: absolute;
     top: 80px;
-    left: 160px;
+    left: 120px;
   }
 }
 @media screen and (max-width: 500px) {
   .reviews__arrow-left {
     position: absolute;
     top: 80px;
-    left: 100px;
+    left: 80px;
   }
 }
 @media screen and (max-width: 1200px) {

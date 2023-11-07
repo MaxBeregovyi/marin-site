@@ -6,12 +6,15 @@
   display: flex;
   gap: 15px;
   align-items: center;
+
   @media screen and (max-width: 500px) {
- font-size: 10px;
-}
+    font-size: 10px;
+  }
+
   &__elem {
     display: none;
   }
+
   &__chek {
     display: inline-block;
     width: 16px;
@@ -19,6 +22,7 @@
     border: 1px solid #2d5e5e;
     position: relative;
     cursor: pointer;
+
     &::before {
       content: "";
       position: absolute;
@@ -35,6 +39,7 @@
     }
   }
 }
-.checkbox__elem:checked + .checkbox__chek::before {
+
+.checkbox__elem:checked+.checkbox__chek::before {
   opacity: 1;
 }

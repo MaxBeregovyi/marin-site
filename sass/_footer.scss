@@ -1,59 +1,59 @@
 .footer {
-    background: #2D5E5E;
+  background: #2D5E5E;
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (max-width: 1200px) {
     display: flex;
-    align-items: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 
-    @media screen and (max-width:1200px) {
-        display: flex;
-        justify-content: center;
-        padding-left: 40px;
-        padding-right: 40px;
+  @media screen and (max-width: 678px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  &__logo {
+    margin-right: 50px;
+
+    @media screen and (max-width: 678px) {
+      margin: 0 0 20px 0;
     }
-
-    @media screen and (max-width:678px) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-
-    &__logo {
-        margin-right: 50px;
-
-        @media screen and (max-width:678px) {
-            margin: 0 0 20px 0;
-        }
-    }
+  }
 }
 
 .contact-footer {
-    &__list {
-        display: flex;
-        list-style: none;
-        gap: 30px;
+  &__list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
 
-        @media screen and (max-width:1024px) {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        @media screen and (max-width:420px) {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 10px;
-        }
+    @media screen and (max-width: 1024px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
     }
 
-    &__link {
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        color: #FFF;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 171%;
+    @media screen and (max-width: 420px) {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
     }
+  }
+
+  &__link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 171%;
+  }
 }

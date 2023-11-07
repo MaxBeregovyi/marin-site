@@ -43,6 +43,7 @@
             max-height: 400px;
             padding: 4px;
             margin-bottom: 20px;
+            padding: 0 10px;
         }
     }
 
@@ -68,6 +69,10 @@
         font-weight: 300;
         line-height: 1.5;
         padding-bottom: 20px;
+
+        @media screen and (max-width: 780px) {
+            text-wrap: balance;
+        }
     }
 
     &__arrow-right {

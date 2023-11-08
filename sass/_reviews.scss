@@ -79,6 +79,13 @@
         position: absolute;
         top: 230px;
         right: 0;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            transform: translate(6px) scale(1.5);
+        }
 
         @media screen and (max-width: 780px) {
             position: absolute;
@@ -97,6 +104,14 @@
         position: absolute;
         top: 230px;
         left: 0;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            transform: translate(-6px) scale(1.5);
+        }
+
 
         @media screen and (max-width: 780px) {
             position: absolute;

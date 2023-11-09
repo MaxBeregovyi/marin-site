@@ -25,10 +25,14 @@ h6 {
 a {
   outline: none;
 }
-
+.center-map{
+  margin: 0 auto;
+  max-width: 1170px;
+  position: relative;
+}
 .center {
-  padding-left: calc(50vw - 600px);
-  padding-right: calc(50vw - 600px);
+  padding-left: calc(50vw - 585px);
+  padding-right: calc(50vw - 585px);
 
   @media screen and (max-width:1280px) {
     padding-left: calc(50vw - 570px);

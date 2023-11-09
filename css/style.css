@@ -786,6 +786,11 @@ a {
   grid-row: 6;
   text-align: center;
 }
+@media screen and (max-width: 500px) {
+  .sign-up__btn-sumbit {
+    width: 103px;
+  }
+}
 .sign-up__checkbox {
   margin-top: 10px;
   grid-row: 5;
@@ -995,7 +1000,7 @@ select {
 .reviews__arrow-right:active {
   transform: translate(6px) scale(1);
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 760px) {
   .reviews__arrow-right {
     position: absolute;
     top: 80px;
@@ -1023,7 +1028,7 @@ select {
 .reviews__arrow-left:active {
   transform: translate(-6px) scale(1);
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 760px) {
   .reviews__arrow-left {
     position: absolute;
     top: 80px;

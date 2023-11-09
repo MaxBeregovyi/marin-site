@@ -486,7 +486,7 @@ a {
   transform: rotate(45deg) translate(0, 50%);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .burger {
     display: flex;
   }
@@ -650,6 +650,12 @@ a {
 .services__descr {
   font-weight: 500;
   line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .services__descr {
+    font-size: 14px;
+    text-wrap: balance;
+  }
 }
 @media screen and (max-width: 1200px) {
   .services {
@@ -858,7 +864,7 @@ a {
     padding-right: 40px;
   }
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
   .counters {
     display: flex;
     flex-direction: column;

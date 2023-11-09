@@ -4,6 +4,7 @@ select {
   cursor: pointer;
   width: 100%;
 
+
   @media screen and (max-width: 500px) {}
 }
 
@@ -12,11 +13,11 @@ select {
   max-width: 369px;
   width: 100%;
 
+
   &:before {
     content: "";
     position: absolute;
     top: 40%;
-
     right: 15px;
     transform: translate(-50%);
     display: block;
@@ -29,5 +30,6 @@ select {
     border-style: solid;
     border-width: 12px 9px 0 9px;
     border-color: #000000 transparent transparent transparent;
+
   }
 }

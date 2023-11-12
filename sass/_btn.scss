@@ -15,20 +15,27 @@
   line-height: 1.33;
   cursor: pointer;
   border: 3px solid transparent;
-  cursor: pointer;
+  transition-duration: 0.3s;
 
-  &:hover,
-  &:focus {
-    opacity: 0.7;
+  &:hover {
+    transform: translateY(-2px);
+    background-color: rgb(237, 129, 51);
+    box-shadow: 0px 6px 4px 0px rgba(8, 14, 24, 0.79);
   }
 
   &:active {
-    opacity: 0.4;
+    transform: translateY(4px);
+    box-shadow: 0px 3px 4px 0px rgba(8, 14, 24, 0.79);
   }
 
   &_background_none {
-    background: none;
+    background: transparent;
     border: 3px solid #2d5e5e;
+
+    &:hover {
+      border: 3px solid rgb(237, 129, 51);
+      background: transparent;
+    }
   }
 
   &_size {

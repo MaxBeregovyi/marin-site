@@ -8,6 +8,7 @@
   width: 100%;
   gap: 10px;
 
+
   @media screen and (max-width: 1200px) {
     padding-left: 40px;
     padding-right: 40px;
@@ -22,6 +23,12 @@
 
 .logo {
   &__img {
+    transition: 0.3s;
+
+    &:hover {
+      scale: 1.1;
+    }
+
     @media screen and (max-width: 600px) {
       height: 60px;
 

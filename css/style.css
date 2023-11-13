@@ -526,7 +526,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     animation: burgerAnimation 0.4s;
-    padding: 30px 40px 0 40px;
+    padding: 40px 40px 0 40px;
   }
   .nav__list {
     display: flex;
@@ -536,6 +536,12 @@ a {
   }
   .nav__link {
     font-size: 30px;
+    padding: 0;
+  }
+  .nav__link:hover {
+    border: none;
+    text-shadow: none;
+    transform: none;
   }
 }
 @keyframes burgerAnimation {

@@ -159,8 +159,15 @@
         border: none;
         text-shadow: none;
         transform: none;
-
       }
+
+      &:focus {
+        border: none;
+        text-shadow: none;
+        transform: none;
+      }
+
+
     }
 
   }

@@ -543,6 +543,11 @@ a {
     text-shadow: none;
     transform: none;
   }
+  .nav__link:focus {
+    border: none;
+    text-shadow: none;
+    transform: none;
+  }
 }
 @keyframes burgerAnimation {
   from {

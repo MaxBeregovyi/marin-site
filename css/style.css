@@ -417,13 +417,6 @@ a {
   gap: 15px;
   list-style: none;
 }
-@media screen and (max-width: 820px) {
-  .nav__list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-  }
-}
 .nav__link {
   text-decoration: none;
   color: #85AAAB;

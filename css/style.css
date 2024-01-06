@@ -986,6 +986,12 @@ select {
   max-height: 260px;
   transition: 0.3s;
 }
+.reviews__box_pink {
+  background: plum;
+}
+.reviews__box_orange {
+  background: rgb(237, 129, 51);
+}
 .reviews__box:hover {
   translate: 0 -20px;
   scale: 108%;
@@ -1004,7 +1010,7 @@ select {
   display: flex;
   align-items: center;
   gap: 32px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .reviews__photo-descr {
   color: #2D5E5E;
@@ -1455,6 +1461,10 @@ select {
   .contact-box__link {
     font-size: 10px;
   }
+}
+
+.hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

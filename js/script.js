@@ -12,30 +12,11 @@ const btnNext = document.querySelector(".reviews__arrow-right");
 const btnPrev = document.querySelector(".reviews__arrow-left");
 
 btnNext.onclick = function () {
-  console.log("hi");
-  const currentSlide = slider.querySelector(`[data-active]`);
-  const currentSlideIndex = +currentSlide.dataset.index;
-  currentSlide.classList.add("hidden");
-  currentSlide.removeAttribute("data-active");
-
-  const nextSlideIndex =
-    currentSlideIndex + 1 === sliderItems.length ? 0 : currentSlideIndex + 1;
-  const nextSlide = slider.querySelector(`[data-index = "${nextSlideIndex}"]`);
-  nextSlide.classList.remove("hidden");
-  nextSlide.setAttribute("data-active", "");
+  showNextSlide("next");
 };
 
 btnPrev.onclick = function () {
-  const currentSlide = slider.querySelector(`[data-active]`);
-  const currentSlideIndex = +currentSlide.dataset.index;
-  currentSlide.classList.add("hidden");
-  currentSlide.removeAttribute("data-active");
-
-  const nextSlideIndex =
-    currentSlideIndex === 0 ? sliderItems.length - 1 : currentSlideIndex - 1;
-  const nextSlide = slider.querySelector(`[data-index = "${nextSlideIndex}"]`);
-  nextSlide.classList.remove("hidden");
-  nextSlide.setAttribute("data-active", "");
+  showNextSlide("prev");
 };
 
 sliderItems.forEach((slide, index) => {
@@ -47,25 +28,26 @@ sliderItems.forEach((slide, index) => {
   sliderItems[0].setAttribute("data-active", "");
 
   slide.addEventListener("click", function () {
-    slide.classList.add("hidden");
-    slide.removeAttribute("data-active");
-
-    // let nextSlideIndex;
-    // if (index + 1 === sliderItems.length) {
-    //   nextSlideIndex = 0;
-    // } else {
-    //   nextSlideIndex = index + 1;
-    // }
-
-    const nextSlideIndex = index + 1 === sliderItems.length ? 0 : index + 1;
-
-    // const nextSlideIndex = +slide.dataset.index + 1;
-
-    const nextSlide = document.querySelector(
-      `[data-index="${nextSlideIndex}"]`,
-    );
-
-    nextSlide.classList.remove("hidden");
-    nextSlide.setAttribute("data-active", "");
+    showNextSlide("next");
   });
 });
+
+function showNextSlide(direction) {
+  const currentSlide = slider.querySelector(`[data-active]`);
+  const currentSlideIndex = +currentSlide.dataset.index;
+  currentSlide.classList.add("hidden");
+  currentSlide.removeAttribute("data-active");
+
+  let nextSlideIndex;
+
+  if (direction === "next") {
+    nextSlideIndex =
+      currentSlideIndex + 1 === sliderItems.length ? 0 : currentSlideIndex + 1;
+  } else if (direction === "prev") {
+    nextSlideIndex =
+      currentSlideIndex === 0 ? sliderItems.length - 1 : currentSlideIndex - 1;
+  }
+  const nextSlide = slider.querySelector(`[data-index = "${nextSlideIndex}"]`);
+  nextSlide.classList.remove("hidden");
+  nextSlide.setAttribute("data-active", "");
+}

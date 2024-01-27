@@ -29,4 +29,4 @@ dataValue.forEach((counterItem) => {
   document.addEventListener("scroll", handleScroll);
 });
 
-const speedCounters = (itemValue) => 1000 / itemValue;
+const speedCounters = (itemValue) => 1500 / itemValue;

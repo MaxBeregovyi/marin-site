@@ -1,9 +1,6 @@
-
 let dataValue = document.querySelectorAll("[data-value]");
-let dataArr = Array.from(dataValue);
-console.log(dataArr);
 
-dataArr.forEach((counterItem) => {
+dataValue.forEach((counterItem) => {
   let isAnimate = false;
 
   function handleScroll() {
@@ -33,4 +30,3 @@ dataArr.forEach((counterItem) => {
 });
 
 const speedCounters = (itemValue) => 1000 / itemValue;
-

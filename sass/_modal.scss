@@ -28,17 +28,16 @@
     h6 {
       font-size: 24px;
       margin: 0 0 20px;
-
-      &:first-letter {
-        color: red;
-        font-size: 32px;
-      }
     }
 
     p {
       margin-bottom: 20px
     }
-
   }
+}
 
+.modal__title_letter {
+  display: inline-block;
+  font-size: 38px;
+  color: red;
 }

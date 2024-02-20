@@ -27,6 +27,13 @@ showModal.addEventListener("click", function () {
     rotation: "0deg",
     opacity: 1
   });
+  openTimeL.fromTo(".modal__title_letter", {
+    x: -200,
+    opacity: 0
+  }, {
+    x: 0,
+    opacity: 1
+  });
   openTimeL.fromTo("#modal__title", {
     y: -100,
     opacity: 0

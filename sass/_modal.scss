@@ -1,0 +1,44 @@
+.modal {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .8);
+  scale: 0;
+  opacity: 0;
+  backdrop-filter: blur(5);
+
+
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: floralwhite;
+    border-radius: 20px;
+    max-width: 500px;
+    gap: 20px;
+    align-items: center;
+
+    h6 {
+      font-size: 24px;
+      margin: 0 0 20px;
+
+      &:first-letter {
+        color: red;
+        font-size: 32px;
+      }
+    }
+
+    p {
+      margin-bottom: 20px
+    }
+
+  }
+
+}
